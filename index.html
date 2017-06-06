@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Приглашение на свадьбу</title>
+    <meta property="og:title" content="Приглашаем на свадьбу!"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="http://gonasvadbu.ru/img/cakes-p.png"/>
+    <meta property="og:site_name" content="Свадьба Саши и Артема"/>
+    <meta property="og:description" content="Скоро, а точнее 12.06.2016 в нашей жизни состоится торжественное и знаменательное событие - наша свадьба!
+    Приглашаем Вас отпраздновать с нами это событие!"/>
+
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <!-- Material Design fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Marck+Script&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap-material-design/dist/css/ripples.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="all">
+
+    <!-- fotorama.css & fotorama.js. -->
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+
+    <!-- Put this script tag to the <head> of your page -->
+    <script type="text/javascript" src="http://vk.com/js/api/share.js?93" charset="windows-1251"></script>
+</head>
+<body>
+
+<div id="clouds"></div>
+<div id="cakes"></div>
+<div id="balloons"></div>
+
+<div id="remote-rope"></div>
+<div class="remote remoteOffOff">
+    <div id="remoteUp"></div>
+    <div id="remoteDown"></div>
+</div>
+
+<div id="spouses-container">
+    <div id="spouses"></div>
+</div>
+<div id="plane-container">
+    <div id="plane"></div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <ul id="scene">
+            <li class="layer" data-depth="0.20">
+                <img src="img/note1.png" class="decor">
+                <p id="guestsNote">
+                    <span class="guests">Дорогие Гости!</span><br>
+                    Солнечный летний день 12 июня 2016 года<br>
+                    был бы совершенно обычным, если бы не<br>
+                    одно «но» - в этот день состоится<br>
+                    торжественное и знаменательное событие -<br>
+                    Наша Свадьба.<br>
+                    И мы приглашаем Вас, самых дорогих для<br>
+                    нас людей, провести с нами этот <br>
+                    прекрасный день!<br>
+                    Ждем Вас на торжественной части, которая <br>
+                    состоится в 12:30 в Загородном клубе «Усадьба»<br>
+                    по адресу: Московская область, Щелковское<br>
+                    шоссе, 43-й км!<br>
+                    Свадебный кортеж отправляется в 10:30 от<br>
+                    Рождественского бульвара д.17<br>
+                    Мы будем рады любым подаркам.<br>
+                    И не важно, в каком они конверте :)<br>
+                    Артём и Александра.<br>
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div class="row">
+        <ul id="scene2">
+            <li class="layer" data-depth="0.10">
+                <img src="img/note2.png" class="decor">
+                <p id="programNote">
+                    Программа мероприятия:<br>
+                    9:00 - Сбор подружек невесты по адресу:<br>
+                    Рождественский бульвар дом 17 кв.10<br>
+                    9:30 – Жених с друзьями выкупают невесту<br>
+                    10:30 – Свадебный кортеж отправляется<br>
+                    от дома невесты<br>
+                    12:30 – Сбор гостей в загородном клубе<br>
+                    «Усадьба»<br>
+                    13:00 – Торжественная регистрация<br>
+                    14:00 – Фуршет, время для прогулки и<br>
+                    фотосессии<br>
+                    16:00 – Праздничный банкет<br>
+                    22:00 – Трансфер до метро Щелковская<br>
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="myPrev"></div>
+        <div class="myNext"></div>
+        <div class="carusel">
+            <div id="fotorama" class="fotorama" data-auto="false">
+                <img src="img/people/1.jpg">
+                <img src="img/people/2.jpg">
+                <img src="img/people/3.JPG">
+                <img src="img/people/4.jpg">
+                <img src="img/people/5.jpg">
+                <img src="img/people/6.JPG">
+                <img src="img/people/7.JPG">
+            </div>
+        </div>
+        <ul id="scene3">
+            <img src="img/note3.png" class="decor">
+        </ul>
+    </div>
+    <div class="row last">
+        <ul id="scene4">
+            <li class="layer" data-depth="0.00">
+                <img src="img/note4.png" class="decor">
+                <p id="contactNote">
+                    Подтвердите, пожалуйста, свое присутствие на празднике.<br>
+                    А также будете ли вы принимать участие в выкупе,<br>
+                    свадебном кортеже. Если по каким-то причинам Вы<br>
+                    не сможете присутствовать, пожалуйста, сообщите нам об этом.<br>
+                    Наши телефоны +79251889200 Артем +79030052085 Александра.<br><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143093.93406326624!2d38.066172431454255!3d55.91742745666759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x1b741a9a9fb39489!2z0KPRgdCw0LTRjNCx0LA!5e0!3m2!1sru!2sru!4v1463032529078" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </p>
+            </li>
+            <div id="myForm">
+                <div class="form-group label-floating is-empty">
+                    <label for="t1" class="control-label">Здесь вы можете написать в свободной форме любые свои пожелания и отзывы</label>
+                    <textarea id="t1" class="form-control guestText"></textarea>
+                    <span class="material-input"></span>
+                    <p class="help-block success">Отправлено! Спасибо, мы постаранемся учесть Ваши пожелания ;)</p>
+                    <br>
+                    <button style="margin-left: 200px" id="send-btn" class="btn btn-success btn-raised">Отправить</button>
+                    <p>
+                        Возьмите с собой хорошее настроение,<br>
+                        а мы сделаем все, чтобы праздник прошел хорошо! :)
+                    </p>
+                    <div style="padding-left: 265px">
+                        <script src="bower_components/punycode/punycode.js"></script>
+                        <script src="bower_components/jquery/dist/jquery.js"></script>
+                        <script type="text/javascript">
+                            <!--
+                            var maUrl;
+
+                            try{
+                                punycode.decode(decodeURIComponent(window.location.search))
+                                maUrl = decodeURIComponent(window.location.search);
+                            } catch(e) {
+                                maUrl = punycode.encode(decodeURIComponent(window.location.search));
+                            }
+
+                            console.log(maUrl);
+
+                            document.write(VK.Share.button({
+                                url : "http://gonasvadbu.ru/" + maUrl,
+                                image:"http://gonasvadbu.ru/img/cakes-p.png"
+                            },{type: "custom", text: "<img src=\"http://vk.com/images/share_32.png\" width=\"32\" height=\"32\" />"}));
+                        --></script>
+                    </div>
+                </div>
+            </div>
+        </ul>
+    </div>
+</div>
+
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/jquery.timers/jquery.timers.js"></script>
+<script src="bower_components/jquery.stellar/jquery.stellar.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="bower_components/spritely/src/jquery.spritely.js"></script>
+<script type="text/javascript" src="bower_components/parallax/deploy/parallax.min.js"></script>
+<script type="text/javascript" src="bower_components/jquery-easing/jquery.easing.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+<script src="bower_components/bootstrap-material-design/dist/js/material.js"></script>
+<script src="bower_components/bootstrap-material-design/dist/js/ripples.js"></script>
+<script src="bower_components/mobile-detect/mobile-detect.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
